@@ -1,10 +1,14 @@
+body {
+  background-color: #000010;
+}
+
 .carousel-item {
   height: 34rem;
-  background: #191919;
   position: relative;
   font-size: 22px;
   border-width: 20rem;
   border-color: blue;
+  margin-top: 10%;
 }
 .container {
   position: absolute;
