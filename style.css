@@ -52,3 +52,11 @@ section {
   border: 1px solid rgb(128, 128, 128, 0.199);
   margin-top: 5px;
 }
+.Send-E {
+  width: 100%;
+  font-size: 25px;
+  font-family: verdana;
+}
+.Send-E:hover {
+  background: grey;
+}
