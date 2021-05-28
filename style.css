@@ -80,6 +80,7 @@ section {
   float: right;
   margin-right: 10%;
   text-align: center;
+  color: white;
 }
 .Check h2 {
   text-decoration: underline;
@@ -90,12 +91,14 @@ section {
   width: 20%;
   border-radius: 25px;
   float: left;
+  padding-left: 5px;
 }
 .floordirt {
   width: 20%;
   float: right;
   border-radius: 25px;
   margin-top: 15%;
+  padding-right: 5px;
 }
 .checkLi {
   padding: 5px;
