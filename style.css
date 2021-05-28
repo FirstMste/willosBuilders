@@ -1,5 +1,6 @@
 body {
   background-color: #000010;
+  font-family: verdana;
 }
 
 .carousel-item {
@@ -27,10 +28,12 @@ body {
 section {
   height: 100vh;
   width: 100%;
+  margin-top: 2px;
   background-color: aliceblue;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .container_form {
   width: 90%;
@@ -60,7 +63,41 @@ section {
   width: 100%;
   font-size: 25px;
   font-family: verdana;
+  color: blue;
+  background-color: aliceblue;
+  transition: 0.25 ease background-color;
+  text-align: center;
 }
 .Send-E:hover {
-  background: grey;
+  background-color: aquamarine;
+}
+.img {
+  border-radius: 2px;
+}
+.Check {
+  margin-top: 10%;
+  font-weight: bold;
+  float: right;
+  margin-right: 10%;
+  text-align: center;
+}
+.Check h2 {
+  text-decoration: underline;
+  padding: 15px;
+}
+.floorclean {
+  margin-top: 15%;
+  width: 20%;
+  border-radius: 25px;
+  float: left;
+}
+.floordirt {
+  width: 20%;
+  float: right;
+  border-radius: 25px;
+  margin-top: 15%;
+}
+.checkLi {
+  padding: 5px;
+  list-style-type: none;
 }
